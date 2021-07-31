@@ -1,0 +1,102 @@
+body {
+  font-family: 'Caveat', cursive;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.caixa {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.menu{
+  font-size: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 187, 0);
+  border-radius: 80%;
+  padding: 20px;
+  text-decoration: none;
+ color: black;
+ 
+}
+
+.menu:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: 500ms;
+  text-decoration: none;
+  background-color: rgb(255, 187, 0);
+  font-size: 30px;
+}
+
+ main{
+  text-align: center;
+  top: 110px;
+  right: 0px;
+}
+
+main li{
+  display: inline;
+  margin: 0 0 0 30px;
+}
+
+.salgados{
+  padding: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*TESTE*/
+
+.comidas {
+  padding: 100px;
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.li-comida {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+  margin: 0 2px;
+  padding: 20px 25px;
+  transition: 600ms;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 187, 0);
+  border-radius: 10%;
+}
+
+.li-comida:hover{
+  transition: 500ms;
+  background-color: rgba(255, 187, 0, 0.301);
+  border-radius: 100%;
+}
+
+
+
+.comida-imagem{
+  padding: 20px;
+  
+}
+
+.comida-imagem:hover{
+  transition: 600ms;
+transform: scale(1.25);
+
+
+}
+
+.comida-h2{
+margin: 20px;
+  text-align: center;
+}
