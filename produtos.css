@@ -1,0 +1,149 @@
+body {
+  font-family: 'Caveat', cursive;
+  background-color: rgb(255, 187, 0);
+}
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+.caixa {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.menu{
+  position: absolute;
+  top: 110px;
+  font-size: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 187, 0);
+  border-radius: 80%;
+  padding: 30px;
+  text-decoration: none;
+ color: rgb(255, 187, 0);
+ 
+}
+
+.menu:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 500ms;
+  text-decoration: none;
+  background-color: rgb(255, 187, 0);
+
+}
+
+ main{
+  text-align: center;
+  top: 110px;
+
+}
+
+main li{
+  text-transform: uppercase;
+  display: inline;
+  margin: 0 0 0 200px;
+}
+/*produtos*/
+
+.cardapio{
+  text-decoration: none;
+  color:rgb(59, 38, 9);
+ 
+  font-size: 50px;
+  padding: 5px 0 0 750px;
+}
+
+.cardapio:hover{
+  color: rgb(255, 255, 255);
+}
+
+.comidas {
+  padding: 10px;
+  width: 1200px;
+  margin: 20px auto;
+  
+}
+
+.li-comida {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+  margin: 0 2px;
+  padding: 20px 20px;
+  transition: 600ms;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 187, 0);
+  border-radius: 10%;
+}
+
+.li-comida:hover{
+  transition: 500ms;
+  background-color: rgba(255, 255, 255, 0.192);
+  border-radius: 100%;
+}
+
+
+
+.comida-imagem{
+  padding: 10px;
+  
+}
+
+.comida-imagem:hover{
+  transition: 600ms;
+transform: scale(1.25);
+
+
+}
+
+
+
+
+
+
+/*footer*/
+footer{
+  background-color:  rgb(59, 38, 9);
+}
+
+footer{
+padding: 0px;
+}
+
+.contato{
+margin: 0px 0 0px;
+padding: 10px 0 0;
+text-align: center;
+font-size: 25px;
+}
+
+.contato li{
+margin: 0px 20px;
+text-align: center;
+display: inline-block;
+padding: 30px 0 0;
+}
+
+.contato p{
+  color: white;
+  font-size: 20px;
+  padding: 5px 5px 10px 0;
+  border-radius: 100%;
+  transition: 500ms;
+}
+
+
+.contato li a img{
+  padding: 2px;
+width: 30px; 
+transition: .2s;
+}
+
+.contato a:hover img{
+transform: scale(1.4) translateY(-19px);
+}

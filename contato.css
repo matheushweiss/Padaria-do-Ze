@@ -1,0 +1,258 @@
+body {
+  font-family: 'Caveat', cursive;
+  background-color: rgb(255, 187, 0);
+}
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+.caixa {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.menu{
+  position: absolute;
+  top: 110px;
+  font-size: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 187, 0);
+  border-radius: 80%;
+  padding: 30px;
+  text-decoration: none;
+ color: rgb(255, 187, 0);
+ 
+}
+
+.menu:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 500ms;
+  text-decoration: none;
+  background-color: rgb(255, 187, 0);
+
+}
+
+ main{
+  text-align: center;
+  top: 110px;
+
+}
+
+main li{
+  text-transform: uppercase;
+  display: inline;
+  margin: 0 0 0 200px;
+}
+
+footer{
+  background-color:  rgb(59, 38, 9);
+}
+
+footer{
+padding: 0px;
+}
+
+.contato{
+margin: 0px 0 0px;
+padding: 10px 0 0;
+text-align: center;
+font-size: 25px;
+}
+
+.contato li{
+margin: 0px 20px;
+text-align: center;
+display: inline-block;
+padding: 30px 0 0;
+}
+
+.contato p{
+  color: white;
+  font-size: 20px;
+  padding: 5px 5px 10px 0;
+  border-radius: 100%;
+  transition: 500ms;
+}
+
+
+.contato li a img{
+  padding: 2px;
+width: 30px; 
+transition: .2s;
+}
+
+.contato a:hover img{
+transform: scale(1.4) translateY(-19px);
+}
+
+
+
+/*form*/
+
+.contatenos {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif, 'arial';
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
+
+.agradece {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+/*formulario*/
+
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+color: rgb(255, 255, 255);
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  padding: 0px 0 100px;
+  border: solid 3px #ffffff;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #000000;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+ 
+::placeholder{
+  color: rgb(255, 255, 255)
+}
+
+
+select::-ms-expand {
+  display: none;
+}
+
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+
+#form_button {
+  background: none;
+  border: solid 2px rgb(255, 255, 255);
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  
+}
+
+#form_button:hover {
+  transition: 400ms;
+  background: #ffffff;
+  color: rgb(255, 187, 0);
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+ 
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
